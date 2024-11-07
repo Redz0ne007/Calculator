@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+}
+
+header{
+    text-align: center;
+    color: orange;
+}
+
+#heading{
+    font-size: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: Georgia;
+}

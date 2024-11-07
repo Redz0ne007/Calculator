@@ -12,3 +12,17 @@ header{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: Georgia;
 }
+div{
+    text-align: center;
+}
+button{
+    font-size: 16px;
+    padding: 22px 65px;
+    height: 70px;
+    width: 10%;
+    border-radius: 8px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: orange;
+}

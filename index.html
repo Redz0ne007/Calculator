@@ -4,35 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="javascript.js" defer></script>
     <title>Document</title>
 </head>
 <body>
     <header>
         <h1 id="heading">Calculator</h1>
     </header>
-    <div>
+    <div id="outputbox">
+        <output id="output"></output>
+    </div>
+    <div class="column">
         <button type="button">1</button>
         <button type="button">2</button>
         <button type="button">3</button>
-        <button type="button">÷</button>
+        <button class="operation" type="button">÷</button>
     </div>
-    <div>
+    <div class="column">
         <button type="button">4</button>
         <button type="button">5</button>
         <button type="button">6</button>
-        <button type="button">X</button>
+        <button class="operation" type="button">x</button>
     </div>
-    <div>
+    <div class="column">
         <button type="button">7</button>
         <button type="button">8</button>
         <button type="button">9</button>
-        <button type="button">-</button>
+        <button class="operation" type="button">-</button>
     </div>
-    <div>
-        <button type="button">+/-</button>
+    <div class="column">
+        <button class="operation" type="button">+/-</button>
         <button type="button">0</button>
-        <button type="button">+</button>
-        <button type="button">=</button>
+        <button class="operation" type="button">+</button>
+        <button class="operation" type="button">=</button>
     </div>
 </body>
 </html>
